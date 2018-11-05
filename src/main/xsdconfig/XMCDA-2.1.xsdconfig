@@ -1,0 +1,13 @@
+<xb:config xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.1.0"
+	xmlns:xb="http://xml.apache.org/xmlbeans/2004/02/xbean/config">
+	<!-- http://svn.apache.org/viewvc/xmlbeans/trunk/src/configschema/schema/xmlconfig.xsd?view=markup -->
+
+	<!-- Use the "namespace" element to map a namespace to the Java package 
+		name that should be generated. -->
+	<xb:namespace uri="http://www.decision-deck.org/2009/XMCDA-2.1.0">
+		<xb:package>org.decisiondeck.jmcda.persist.xmcda2.generated</xb:package>
+		<xb:prefix>X</xb:prefix>
+	</xb:namespace>
+	<xb:qname target="document-type" name="xmcda:XMCDA" javaname="XMCDADoc" />
+	<!-- <xb:qname target="document-type" name="xmcda:XMCDA" javaname="XMCDADocument"/> -->
+</xb:config>
