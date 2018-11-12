@@ -5,9 +5,8 @@
 		<artifactId>pom</artifactId>
 		<groupId>io.github.oliviercailloux.jmcda</groupId>
 		<version>0.5.4-SNAPSHOT</version>
-		<relativePath>..</relativePath>
 	</parent>
-	<artifactId>jmcda-xmcda2</artifactId>
+	<artifactId>xmcda2</artifactId>
 	<name>XMCDA v2 module</name>
 	<description>Code generated from the XMCDA v2 schema</description>
 	<build>
@@ -21,7 +20,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>jmcda-base</artifactId>
+			<artifactId>base</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
