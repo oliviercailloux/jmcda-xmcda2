@@ -23,7 +23,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<javaSource>1.6</javaSource>
+					<javaSource>1.5</javaSource>
 					<!--<verbose>true</verbose> -->
 				</configuration>
 			</plugin>
