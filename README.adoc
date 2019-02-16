@@ -8,5 +8,5 @@ J-MCDA xmcda2
 
 API is _not_ stable. Comments and bug reports are welcome.
 
-Compiling with JDK 8 works, but fails with JDK 11 because XMLBeans seems to require source 5 and that’s too old for JDK 11. Omitting source 5 parameter for XMLBeans generates non generic code, thus omits for example `org.decisiondeck.jmcda.persist.xmcda2.generated.XAlternative#getActiveList()`.
+Compiling with Open JDK 8 works, but fails with Open JDK 11 and fails with Oracle JDK 8 because XMLBeans seems to require source 5 and that’s too old for those JDKs. Omitting source 5 parameter for XMLBeans generates non generic code, thus omits for example `org.decisiondeck.jmcda.persist.xmcda2.generated.XAlternative#getActiveList()`.
 
